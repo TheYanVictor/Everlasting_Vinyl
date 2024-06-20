@@ -1,0 +1,59 @@
+/* Estilos das funções  */
+
+/* Função para deixar em paralelo os elementos */
+.pessoal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+/* Header */
+header {
+    /* Chamando a função de paralelos */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* Coloração */
+    background-color: #ee9026;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+
+    /* Tamanho */
+    height: 100px;
+}
+
+/* Classe search */
+#barra_pesquisa {
+    margin-top: 70px ;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: left;
+    vertical-align: auto;
+    border-color: transparent;
+    text-align: center;
+}
+/* <img src="/media/shopping_cart.png" alt="Carrinho de compras" width="40px" height="40px"></span> */
+
+/* Botao de pesquisa do header */
+#botao_pesquisa_header {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: url("/media/search.png");
+    background-position: center;
+    background-size: cover;
+    height: 15px;
+    margin-top: 70px;
+    margin-right: 10px;
+    text-align: right;
+    vertical-align: auto;
+}
+
+/* Classe de espaço entre os icones */
+.espaco {
+    margin-left: 30px;
+}
