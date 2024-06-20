@@ -107,3 +107,35 @@ body {
         margin-bottom: 20px;
     }
 }
+
+/* Footer */
+footer {
+    /* Posição */
+    position: fixed;
+    bottom: 0;
+
+    /* Chamando a função de paralelos */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* Coloração */
+    background-color: #ee9026;
+    color: #fff;
+    text-align: center;
+
+    /* Tamanho */
+    height: 50px;
+    width: 100%;
+
+    /* Fonte */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Difinição dos icones do footer */
+.icones_footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
