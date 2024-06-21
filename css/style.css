@@ -162,3 +162,22 @@ img {
     margin: auto;
     width: 70%;
 }
+
+h2{
+    text-align: center;
+}
+
+.login-container{
+    padding: 5%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-form{
+    justify-content: space-around;
+}
+
+.login-input{
+    margin: 10px;
+}
