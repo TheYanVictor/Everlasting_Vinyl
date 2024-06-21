@@ -97,10 +97,11 @@ body {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* this adds the "card" effect */
-    padding: 16px;
+    padding: 15x;
+    height: 300px;
+    width: 350px;
     text-align: center;
-    background-color: #f1f1f1;
-    
+    background-color: #f8f8f8;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -142,4 +143,22 @@ footer {
 .icones_footer {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.login-corpo{
+    /* margin: auto;
+
+    margin-left: 50%;
+    margin-right: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee9026;
+    height: 100vh;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 70%;
 }

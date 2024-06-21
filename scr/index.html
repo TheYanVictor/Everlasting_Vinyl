@@ -10,17 +10,17 @@
 </head>
 <header>
     <!-- Barra de pesquisa na esquerda-->
-    <div class="search">
+    <section class="search">
         <input type="text" id="barra_pesquisa" placeholder="Pesquisar...">
         <button id="botao_pesquisa_header"></button>
-    </div>
+    </section>
     <!-- Cabeçalho do site -->
-    <div class="Titulo">
+    <section class="Titulo">
         <h1>Everlasting Vinyl</h1>
         <p>O melhor dos mundos para os amantes de um bom som</p>
-    </div>
+    </section>
     <!-- Carrinho de compras e login -->
-    <div class="pessoal">
+    <section class="pessoal">
         <!-- Carrinho -->
         <div class="carrinho">
             <img src="/media/shopping_cart.png" alt="Carrinho de compras" width="40px" height="40px">
@@ -31,74 +31,91 @@
         <!-- Login -->
         <div class="login">
             <img src="/media/login.png" alt="Login" width="40px" height="40px">
-            <p>Entrar</p>
+            <button>
+                <a href="./login.html">Entrar</a>
+            </button>
+            
         </div>
         <!-- Espaço entre os icones -->
         <div class="espaco"></div>
-    </div>
+    </section>
 </header>
 <body>
-    <br> <br> <br>
-    <!-- Primeira linha de produtos -->
-    <div class="row">
-        <div class="column">
-            <div class="card">LP 1</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 2</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 3</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 4</div>
-        </div>
-    </div>
-    <br>
-    <!-- Segunda linha de produtos -->
-    <div class="row">
-        <div class="column">
-            <div class="card">LP 5</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 6</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 7</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 8</div>
-        </div>
-    </div>
-    <br>
-    <!-- Terceira linha de produtos -->
-    <div class="row">
-        <div class="column">
-            <div class="card">LP 9</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 10</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 11</div>
-        </div>
-        <div class="column">
-            <div class="card">LP 12</div>
-        </div>
-    </div>
+    <main>
+        <br> <br> <br>
+        <!-- Primeira linha de produtos -->
+        <section class="row">
+            <div class="column">
+                <button class="card">
+                    <img src="../media/the-beatles-white-album.jpg">
+                    <p>Beatles</p>
+                </button>
+            </div>
+            <div class="column">
+                <button class="card">
+                    <img src="../media/nirvana-nervermind.jpg">   
+                    <p>Nirvana</p> 
+                </button>
+            </div>
+            <div class="column">
+                <button class="card">
+                    <img src="../media/pink-floyd-dark-side-of-the-moon.jpg">
+                    <p>Pink Floyd</p> 
+                </button>
+            </div>
+            <div class="column">
+                <button class="card">
+                    <img src="../media/queen-a-day-at-the-races.jpg">
+                    <p>Queen</p> 
+                </button>
+            </div>  
+        </section>
+        <br>
+        <!-- Segunda linha de produtos -->
+        <section class="row">
+            <div class="column">
+                <button class="card">LP 5</button>
+            </div>
+            <div class="column">
+                <button class="card">LP 6</button>
+            </div>
+            <div class="column">
+                <button class="card">LP 7</button>
+            </div>  
+            <div class="column">
+                <button class="card">LP 8</button>
+            </div>
+        </section>
+        <br>
+        <!-- Terceira linha de produtos -->
+        <section class="row">
+            <div class="column">
+                <button class="card">LP 9</button>
+            </div>
+            <div class="column">
+                <button class="card">LP 10</button>
+            </div>
+            <div class="column">
+                <button class="card">LP 11</button>
+            </div>
+            <div class="column">
+                <button class="card">LP 12</button>
+            </div>
+        </section>
+    </main>
 </body>
 
 <!-- Rodapé do site -->
 <footer>
-    <div class="name_footer">
+    <section class="name_footer">
         <p>Everlasting Vinyl</p>
-    </div>
-    <div class="Redes_sociais_footer">
+    </secton>
+    <section>
         <div class="icones_footer">
             <img src="/media/facebook.png" alt="Facebook" width="30px" height="30px">
             <img src="/media/instagram.png" alt="Instagram" width="30px" height="30px">
             <img src="/media/linkedin.png" alt="Twitter" width="30px" height="30px">
         </div>
-    </div>
+    </section>
 </footer>
 </html>
