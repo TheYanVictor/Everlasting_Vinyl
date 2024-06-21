@@ -27,7 +27,8 @@ header {
     height: 150px;
 
     /* Fonte */
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 
 }
 
@@ -64,8 +65,10 @@ header {
 
 /* Daqui pra baixo é o body e foi meio copia cola */
 body {
-    font-family: 'Times New Roman', Times, serif;
-}
+    font-family: 'Times New Roman', Times, serif; 
+    /* font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; */
+
+} 
 
 * {
     box-sizing: border-box;
@@ -97,6 +100,7 @@ body {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
