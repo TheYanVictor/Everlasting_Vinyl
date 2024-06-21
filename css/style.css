@@ -46,18 +46,44 @@ header {
 
 /* Botao de pesquisa do header */
 #botao_pesquisa_header {
-    background-color: transparent;
-    border-color: transparent;
-    background-image: url("/media/search.png");
-    background-position: center;
-    background-size: cover;
-    height: 15px;
-    margin-top: 70px;
-    margin-right: 10px;
+    background-color: #ee912673; 
+    border-color: none; 
+    border: 0;
     text-align: right;
     vertical-align: auto;
 }
 
+/* Cor do botao de pesquisa */
+.fa-search {
+    color: white;
+}
+
+/* Animação do botao de pesquisa */
+#botao_pesquisa_header:active {
+    background-color: #945f23;
+}
+
+/* Carrinho */
+#carrinho_icon {
+    background-color: #ee912673; 
+    border-color: none; 
+    border: 0;
+    text-align: right;
+    vertical-align:bottom;
+    font-size: 30px;
+}
+.fa-shopping-cart {
+    color: white;    
+}
+
+#carrinho_icon:active {
+    background-color: #945f23;
+}
+
+/* Icon de login */
+.fa-sign-in {
+    color: white;
+}
 /* Classe de espaço entre os icones */
 .espaco {
     margin-left: 30px;
