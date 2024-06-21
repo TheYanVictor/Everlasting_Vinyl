@@ -7,12 +7,15 @@
     <!-- Importando os estilos e scripts -->
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/script.js"></script>
+    <!-- Importando biblioteca de icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <header>
     <!-- Barra de pesquisa na esquerda-->
     <section class="search">
         <input type="text" id="barra_pesquisa" placeholder="Pesquisar...">
-        <button id="botao_pesquisa_header"></button>
+        <button id="botao_pesquisa_header" > <i class="fa fa-search"></i></button>
     </section>
     <!-- Cabeçalho do site -->
     <section class="Titulo">
@@ -23,17 +26,15 @@
     <section class="pessoal">
         <!-- Carrinho -->
         <div class="carrinho">
-            <img src="/media/shopping_cart.png" alt="Carrinho de compras" width="40px" height="40px">
+            <button id="carrinho_icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
             <p>Carrinho</p>
         </div>
         <!-- Espaço entre os icones -->
         <div class="espaco"></div>
         <!-- Login -->
         <div class="login">
-            <img src="/media/login.png" alt="Login" width="40px" height="40px">
-            <button>
-                <a href="./login.html">Entrar</a>
-            </button>
+            <button id="sign_in_icon"><i class="fa fa-sign-in" aria-hidden="true"></i></button>
+            <p>Carrinho</p>
             
         </div>
         <!-- Espaço entre os icones -->
@@ -110,12 +111,10 @@
     <section class="name_footer">
         <p>Everlasting Vinyl</p>
     </secton>
-    <section>
-        <div class="icones_footer">
-            <img src="/media/facebook.png" alt="Facebook" width="30px" height="30px">
-            <img src="/media/instagram.png" alt="Instagram" width="30px" height="30px">
-            <img src="/media/linkedin.png" alt="Twitter" width="30px" height="30px">
-        </div>
+    <section class="icones_footer">
+        <button id="cinstagran_icon"><i class="fa-brands fa-facebook-f"></i></button>
+        <button id="cinstagran_icon"><i class="fa-brands fa-instagram"></i></button>
+        <button id="cinstagran_icon"><i class="fa-brands fa-linkedin"></i></button>
     </section>
 </footer>
 </html>
