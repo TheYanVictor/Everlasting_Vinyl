@@ -78,7 +78,7 @@ header {
     border-color: transparent;
     text-align: center;
 }
-/* <img src="/media/shopping_cart.png" alt="Carrinho de compras" width="40px" height="40px"></span> */
+
 
 /* Botao de pesquisa do header */
 #botao_pesquisa_header {
@@ -357,9 +357,7 @@ footer {
 
     /* Chamando a função de paralelos */
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
     /* Coloração */
     background-color: #ee9026;
@@ -367,7 +365,7 @@ footer {
     text-align: center;
 
     /* Tamanho */
-    height: 50px;
+    max-height: 300px;
     width: 100%;
 
     /* Fonte */
@@ -375,17 +373,27 @@ footer {
 
 }
 
+
+.name_footer {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 5%;
+}
+
 /* Difinição dos icones do footer */
 .icones_footer {
+    display: flex;
+    padding-right: 5%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.login-corpo{
-    /* margin: auto;
+#icones_footer_logo {
+    height: 30px;
+    width: 30px;
+}
 
-    margin-left: 50%;
-    margin-right: 50%; */
+.login-corpo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -393,11 +401,6 @@ footer {
     height: 100vh;
 }
 
-img {
-    display: block;
-    margin: auto;
-    width: 70%;
-}
 
 h2{
     text-align: center;
@@ -470,9 +473,9 @@ h2{
 /* -------------------------------------------------------------------------------------------------------------- */
 /* Page template */
 .product_page_template{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .product_controller_header {
@@ -493,11 +496,4 @@ h2{
 #buy_options_template {
     display: block;
     float: right;
-}
-
-.product_description {
-    display:flexbox;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
 }
