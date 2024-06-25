@@ -11,99 +11,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
+<!-- Cabeçalho do site -->
+<!-- O header é composto de 4 partes principais: Título, busca, navegação e carrinho/login -->
 <header>
-    <!-- Barra de pesquisa na esquerda-->
-    <section class="search">
-        <input type="text" id="barra_pesquisa" placeholder="Pesquisar...">
-        <button id="botao_pesquisa_header" > <i class="fa fa-search"></i></button>
-    </section>
-    <!-- Cabeçalho do site -->
-    <section class="Titulo">
+    <!-- Brand name -->
+    <section class="upper_header">
         <h1>Everlasting Vinyl</h1>
         <p>O melhor dos mundos para os amantes de um bom som</p>
     </section>
-    <!-- Carrinho de compras e login -->
-    <section class="pessoal">
-        <!-- Carrinho -->
-        <div class="carrinho">
+    <br>
+    <hr style="width: 50%; margin: auto;">
+    <!-- Parte de baixo do header -->
+    <section class="lower_header">
+        <!-- Left section -->
+        <div class="col-1">
+            <input type="text" id="barra_pesquisa" placeholder="Pesquisar...">
+            <button id="botao_pesquisa_header"> <i class="fa fa-search"></i></button>
+        </div>
+        <!-- Navigation section -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Right section -->
+        <div class="col-2">
             <button id="carrinho_icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-            <p>Carrinho</p>
-        </div>
-        <!-- Espaço entre os icones -->
-        <div class="espaco"></div>
-        <!-- Login -->
-        <div class="login">
             <button id="sign_in_icon"><i class="fa fa-sign-in" aria-hidden="true"></i></button>
-            <p>Carrinho</p>
-            
         </div>
-        <!-- Espaço entre os icones -->
-        <div class="espaco"></div>
     </section>
+
 </header>
 <body>
-    <main>
-        <br> <br> <br>
-        <!-- Primeira linha de produtos-->
-        <section class="row">
-            <div class="column">
-                <button class="card">
-                    <img src="../media/the-beatles-white-album.jpg">
-                    <p>The Beatles</p>
-                </button>
-            </div>
-            <div class="column">
-                <button class="card">
-                    <img src="../media/nirvana-nervermind.jpg">   
-                    <p>Nirvana</p> 
-                </button>
-            </div>
-            <div class="column">
-                <button class="card">
-                    <img src="../media/pink-floyd-dark-side-of-the-moon.jpg">
-                    <p>Pink Floyd</p> 
-                </button>
-            </div>
-            <div class="column">
-                <button class="card">
-                    <img src="../media/queen-a-day-at-the-races.jpg">
-                    <p>Queen</p> 
-                </button>
-            </div>  
-        </section>
-        <br>
-        <!-- Segunda linha de produtos -->
-        <section class="row">
-            <div class="column">
-                <button class="card">LP 5</button>
-            </div>
-            <div class="column">
-                <button class="card">LP 6</button>
-            </div>
-            <div class="column">
-                <button class="card">LP 7</button>
-            </div>  
-            <div class="column">
-                <button class="card">LP 8</button>
-            </div>
-        </section>
-        <br>
-        <!-- Terceira linha de produtos -->
-        <section class="row">
-            <div class="column">
-                <button class="card">LP 9</button>
-            </div>
-            <div class="column">
-                <button class="card">LP 10</button>
-            </div>
-            <div class="column">
-                <button class="card">LP 11</button>
-            </div>
-            <div class="column">
-                <button class="card">LP 12</button>
-            </div>
-        </section>
-    </main>
+    <!-- Container para os cards -->
+    <section class="container">
+        <div id="product-cards" class="product-cards">
+            <!-- Os cards dos produtos serão inseridos aqui pelo JavaScript -->
+        </div>
+
+    </section>
 </body>
 
 <!-- Rodapé do site -->

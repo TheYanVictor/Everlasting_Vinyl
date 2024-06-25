@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "img": "/assets/img/nirvana-nervermind.jpg",
+            "title": "Nirvana - Nevermind",
+            "price": "29.99"
+        },
+        {
+            "img": "/assets/img/pink-floyd-dark-side-of-the-moon.jpg",
+            "title": "Pink Floyd - Dark Side of the Moon",
+            "price": "39.99"
+        },
+        {
+            "img": "/assets/img/the-beatles-white-album.jpg",
+            "title": "The Beatles - White Album",
+            "price": "49.99"
+        },
+        {
+            "img": "/assets/img/queen-a-day-at-the-races.jpg",
+            "title": "Queen - A Day",
+            "price": "49.99"
+        }
+        
+    ]
+}

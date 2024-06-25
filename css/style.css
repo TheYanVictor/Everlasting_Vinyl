@@ -1,41 +1,77 @@
 /* Estilos das funções  */
 
-/* Função para deixar em paralelo os elementos */
-.pessoal {
+/* Aplicavel para tudo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: end;
-    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/* Fazendo a lista ul aparecer em blocos na mesma linha */
+nav ul {
+    display: inline-block;
+    /* Tira os bullet points */
+    list-style: none; 
+}
+
+/* Fazendo a lista li aparecer em blocos na mesma linha */
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Tirar o destaque de hiperlink */
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Header */
 header {
     /* Chamando a função de paralelos */
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
+
+    /* Distancia dos lados */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 
     /* Coloração */
     background-color: #ee9026;
     color: #fff;
-    padding: 10px 0;
+    
     text-align: center;
 
     /* Tamanho */
-    height: 150px;
+    max-height: 150px;
 
     /* Fonte */
-    /* font-family: 'Times New Roman', Times, serif; */
+
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 
 }
 
+.lower_header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
 /* Classe search */
 #barra_pesquisa {
-    margin-top: 70px ;
-    margin-left: 10px;
+
     border-radius: 10px;
     text-align: left;
     vertical-align: auto;
@@ -80,65 +116,97 @@ header {
     background-color: #945f23;
 }
 
+#sign_in_icon {
+    background-color: #ee912673; 
+    border-color: none; 
+    border: 0;
+    text-align: right;
+    vertical-align:bottom;
+    font-size: 30px;
+}
+
+#sign_in_icon:active {
+    background-color: #945f23;
+}
+
 /* Icon de login */
 .fa-sign-in {
     color: white;
 }
-/* Classe de espaço entre os icones */
-.espaco {
-    margin-left: 30px;
+
+.col-1 {
+    padding-left: 10px;
 }
 
-/* Daqui pra baixo é o body e foi meio copia cola */
+.col-2 {
+    padding-right: 10px;
+    
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Corpo */
 body {
     font-family: 'Times New Roman', Times, serif; 
-    /* font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-} 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-* {
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
     box-sizing: border-box;
+    transition: transform 0.2s;
 }
 
-/* Float four columns side by side */
-.column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
+.product-card img {
+    width: 100%;
+    height: auto;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-    margin: 0 -5px;
+.product-card .details {
+    padding: 15px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.product-card .details h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
 }
 
-/* Style the counter cards */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* this adds the "card" effect */
-    padding: 15x;
-    height: 300px;
-    width: 350px;
-    text-align: center;
-    background-color: #f8f8f8;
+.product-card .details p {
+    margin: 0;
+    color: #888;
 }
 
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
+.product-card .details .price {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
 }
 
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
 /* Footer */
 footer {
     /* Posição */
