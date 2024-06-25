@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const card = document.createElement('div');
                 card.className = 'product-card';
                 card.innerHTML = `
-                    <a href="../products/product.html?id=${product.id}">
+                    <a href="../templates/product.html?id=${product.id}">
                         <img src="${product.img}" alt="${product.title}">
                         <div class="details">
                             <h2>${product.title}</h2>
