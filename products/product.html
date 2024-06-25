@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="cart">
+            <a href="../products/cart.html">Carrinho (<span id="cart-count">0</span>)</a>
+        </div>
+        <div class="back">
+            <a href="../src/index.html">Voltar</a>
+        </div>
+    </header>
+    <div class="container">
+        <div id="product-details" class="product-details">
+            <!-- Os detalhes do produto serão inseridos aqui pelo JavaScript -->
+        </div>
+        <div class="purchase-options">
+            <h2>Compra</h2>
+            <div class="quantity">
+                <label for="quantity">Quantidade:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+            </div>
+            <div class="installments">
+                <label for="installments">Parcelamento:</label>
+                <select id="installments" name="installments">
+                    <option value="1">1x sem juros</option>
+                    <option value="2">2x sem juros</option>
+                    <option value="3">3x sem juros</option>
+                    <option value="4">4x sem juros</option>
+                    <option value="5">5x sem juros</option>
+                    <option value="6">6x sem juros</option>
+                </select>
+            </div>
+            <button id="buy-button">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+    <script src="../js/product.js"></script>
+</body>
+</html>
