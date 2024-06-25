@@ -211,28 +211,36 @@ body {
     justify-content: space-between;
 }
 
-.purchase-options {
+.purchase_options {
     margin-top: 20px;
+    border: 3px solid orange;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 30px;
+    margin-right: 30px ;
+    
 }
 
-.purchase-options h2 {
+.purchase_options h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.purchase-options .quantity,
-.purchase-options .installments {
+.purchase_options .quantity,
+.purchase_options .installments {
     margin-bottom: 10px;
 }
 
-.purchase-options label {
+.purchase_options label {
     display: block;
     font-size: 16px;
     margin-bottom: 5px;
 }
 
-.purchase-options input,
-.purchase-options select {
+.purchase_options input,
+.purchase_options select {
     width: 100%;
     padding: 8px;
     font-size: 16px;
@@ -458,4 +466,38 @@ h2{
 .login-form{
     display: flex;
     flex-direction: column;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+/* Page template */
+.product_page_template{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product_controller_header {
+    display: inline-block;
+}
+
+
+/* Imagem card */
+#product_details_buy_template {
+    float: left;
+    display: block;
+    width: 85%;
+    position: absolute;
+    padding-left: 10%;
+}
+
+/* Setor da compra */
+#buy_options_template {
+    display: block;
+    float: right;
+}
+
+.product_description {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
