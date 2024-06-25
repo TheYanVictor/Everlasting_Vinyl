@@ -187,6 +187,7 @@ body {
 .product-card .details h2 {
     font-size: 18px;
     margin: 0 0 10px;
+    color: #333;
 }
 
 .product-card .details p {
@@ -406,5 +407,55 @@ h2{
 }
 
 .login-input{
-    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.login-label{
+    font-size: 10pt;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.main-container-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-around;
+    /* padding: 6.25%; */
+    max-width: 900px;
+    
+}
+
+.login-containter{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    max-width: 900px;
+    /* min-width: calc(100vh - 300px); */
+}
+
+.main-container {
+    margin: 1.5em 0 0;
+    padding: 0 3.125%;
+    min-height: calc(100vh - 200px);
+}
+
+.max-width {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
 }

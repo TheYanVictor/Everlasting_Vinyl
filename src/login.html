@@ -1,26 +1,39 @@
-<!-- Tela de login -->
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>Everlasting Vinyl</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/script.js"></script>
-</head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Everlasting Vinyl</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/script.js"></script>
+    </head>
+    
+    <body>
+        <div class="max-width">
 
-<body>
-    <main class="login-corpo">
-        <section class="login-container">
-            <h2>Login</h2>
-            <form class="login-form">
-                <label for="">Email</label>
-                <input class="login-input" type="text" id="e-mail"> <br>
-                <label for="">Nome</label>
-                <input class="login-input" type="text" id="nome"> <br>
-                <label for="">Senha</label>
-                <input class="login-input" type="text" id="senha">
-            </form>
-        </section>
-    </main>
-</body>
+            <section class="main-container">
+                <h1>Minha conta</h1>
+    
+                <div class="main-container-content">
+                    <h3>Entrar</h3>
+                    <section class="login-containter">
+                        <form class="login-form">
+                            <label class="login-label">Nome de usuário ou e-mail</label>
+                            <input class="login-input" type="text" name="userName" id="loginUserName">
+                            <label class="login-label" aria-required="true">Senha</label>
+                            <input class="login-input" type="password" name="password" id="loginPassword">
+    
+                            <div class="access-div">
+                                <button type="submit">Acessar</button>
+                                <input type="checkbox" name="rememberUser" id="rememberUser">
+                                <span>Lembre-me</span>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+    
+            </section>
+        </div>
+
+    </body>
 
 </html>
