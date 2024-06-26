@@ -4,26 +4,115 @@
             "id": 1,
             "img": "/assets/img/nirvana-nervermind.jpg",
             "title": "Nirvana - Nevermind",
-            "price": "29.99"
+            "price": "29,99"
         },
         {
             "id": 2,
             "img": "/assets/img/pink-floyd-dark-side-of-the-moon.jpg",
             "title": "Pink Floyd - Dark Side of the Moon",
-            "price": "39.99"
+            "price": "39,99"
         },
         {
             "id": 3,
             "img": "/assets/img/the-beatles-white-album.jpg",
             "title": "The Beatles - White Album",
-            "price": "49.99"
+            "price": "49,99"
         },
         {
             "id": 4,
             "img": "/assets/img/queen-a-day-at-the-races.jpg",
-            "title": "Queen - A Day",
-            "price": "49.99"
+            "title": "Queen - A Day at the Races",
+            "price": "49,99"
+        },
+        {
+            "id": 5,
+            "img": "/assets/img/led-zeppelin-iv.jpg",
+            "title": "Led Zeppelin - IV",
+            "price": "59,99"
+        },
+        {
+            "id": 6,
+            "img": "/assets/img/the-rolling-stones-exile-on-main-st.jpg",
+            "title": "The Rolling Stones - Exile on Main St.",
+            "price": "69,99"
+        },
+        {
+            "id": 7,
+            "img": "/assets/img/acdc-back-in-black.jpg",
+            "title": "AC/DC - Back in Black",
+            "price": "79,99"
+        },
+        {
+            "id": 8,
+            "img": "/assets/img/the-who-whos-next.jpg",
+            "title": "The Who - Who's Next",
+            "price": "89,99"
+        },
+        {
+            "id": 9,
+            "img": "/assets/img/guns-n-roses-appetite-for-destruction.jpg",
+            "title": "Guns N' Roses - Appetite for Destruction",
+            "price": "99,99"
+        },
+        {
+            "id": 10,
+            "img": "/assets/img/fleetwood-mac-rumours.jpg",
+            "title": "Fleetwood Mac - Rumours",
+            "price": "109,99"
+        },
+        {
+            "id": 11,
+            "img": "/assets/img/david-bowie-the-rise-and-fall-of-ziggy-stardust.jpg",
+            "title": "David Bowie - The Rise and Fall of Ziggy Stardust",
+            "price": "119,99"
+        },
+        {
+            "id": 12,
+            "img": "/assets/img/jimi-hendrix-are-you-experienced.jpg",
+            "title": "Jimi Hendrix - Are You Experienced",
+            "price": "129,99"
+        },
+        {
+            "id": 13,
+            "img": "/assets/img/metallica-master-of-puppets.jpg",
+            "title": "Metallica - Master of Puppets",
+            "price": "139,99"
+        },
+        {
+            "id": 14,
+            "img": "/assets/img/black-sabbath-paranoid.jpg",
+            "title": "Black Sabbath - Paranoid",
+            "price": "149,99"
+        },
+        {
+            "id": 15,
+            "img": "/assets/img/the-doors-the-doors.jpg",
+            "title": "The Doors - The Doors",
+            "price": "34,99"
+        },
+        {
+            "id": 16,
+            "img": "/assets/img/the-clash-london-calling.jpg",
+            "title": "The Clash - London Calling",
+            "price": "44,99"
+        },
+        {
+            "id": 17,
+            "img": "/assets/img/bruce-springsteen-born-to-run.jpg",
+            "title": "Bruce Springsteen - Born to Run",
+            "price": "54,99"
+        },
+        {
+            "id": 18,
+            "img": "/assets/img/u2-the-joshua-tree.jpg",
+            "title": "U2 - The Joshua Tree",
+            "price": "64,99"
+        },
+        {
+            "id": 19,
+            "img": "/assets/img/eagles-hotel-california.jpg",
+            "title": "Eagles - Hotel California",
+            "price": "74,99"
         }
-        
     ]
 }
