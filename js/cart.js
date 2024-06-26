@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="details">
                     <h2>${item.title}</h2>
                     <p>Quantidade: ${item.quantity}</p>
-                    <p>Preço: $${item.price}</p>
-                    <p>Total: $${itemTotal}</p>
+                    <p>Preço: R$${item.price}</p>
+                    <p>Total: R$${itemTotal}</p>
                 </div>
             `;
             cartItemsContainer.appendChild(cartItem);

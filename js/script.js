@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <img src="${product.img}" alt="${product.title}">
                         <div class="details">
                             <h2>${product.title}</h2>
-                            <p class="price">$${product.price}</p>
+                            <p class="price">R$${product.price}</p>
                         </div>
                     </a>
                 `;
