@@ -4,19 +4,21 @@
         <meta charset="UTF-8">
         <title>Everlasting Vinyl</title>
         <link rel="stylesheet" href="/css/style-login.css">
-        <script src="/js/script.js"></script>
+        <script src="/js/login.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- fonte "lato"-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     </head>
+
+    <body>
     
         <main class="main-login-screen">
             <h1>Minha conta</h1>
             <h2>Entrar</h2>
 
-            <form class="login-form" aria-expanded="true">
+            <form class="login-form" id="login-form" aria-expanded="true">
                 <label class="form-label">Nome de usuário ou e-mail <span class="required">*</span></label>
                 <input class="form-input" type="text" name="userName" id="loginUserName">
                 <label class="form-label" aria-required="true">Senha <span class="required">*</span></label>
@@ -29,13 +31,13 @@
             </form>
 
             <h2>Cadastre-se</h2>
-            <form class="sigin-form" aria-expanded="true">
+            <form class="sigin-form" id="register-form" aria-expanded="true">
                 <label class="form-label">Nome de usuário <span class="required">*</span></label>
-                <input class="form-input" type="text" name="userName" id="sigin-UserName">
+                <input class="form-input" type="text" name="userName" id="register-UserName">
                 <label class="form-label">Endereço de e-mail<span class="required">*</span></label>
-                <input class="form-input" type="text" name="userName" id="sigin-UserName">
+                <input class="form-input" type="text" name="userName" id="register-Email">
                 <label class="form-label" aria-required="true">Senha <span class="required">*</span></label>
-                <input class="form-input" type="password" name="password" id="sigin-Password">
+                <input class="form-input" type="password" name="password" id="register-Password">
                 <div class="form-submit-div">
                     <button type="submit" class="form-button">Cadastre-se</button>
                 </div>
