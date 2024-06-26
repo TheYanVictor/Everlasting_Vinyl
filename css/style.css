@@ -29,11 +29,19 @@ nav ul li {
     margin-left: 20px;
 }
 
+
+nav ul li a:hover {
+    font-size: x-large;
+    transition: 0.3s;
+    line-height: 20px;
+}
+
 /* Tirar o destaque de hiperlink */
 a {
     text-decoration: none;
     color: #fff;
 }
+
 
 /* Header */
 header {
