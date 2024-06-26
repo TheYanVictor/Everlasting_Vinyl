@@ -61,6 +61,7 @@ header {
 
 }
 
+
 .lower_header {
     display: flex;
     justify-content: space-between;
@@ -141,6 +142,12 @@ header {
 .col-2 {
     padding-right: 10px;
     
+}
+
+.right_section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -264,27 +271,32 @@ body {
     background-color: #218838;
 }
 .cart {
-    float: right;
+    display: inline-block;
+    /* float: right; */
     padding: 10px;
 }
 
 .cart a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 }
 
 .cart a:hover {
     text-decoration: underline;
 }
 
+.loginSection a:hover {
+    text-decoration: underline;
+}
+
 .back {
-    float: left;
+    display: inline-block;
     padding: 10px;
 }
 
 .back a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 }
 
 .back a:hover {
