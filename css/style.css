@@ -265,11 +265,20 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    /* z-index garante que toda a sua área seja cliclavel mesmo que sob outros elementos */
+    z-index: 10;
+    position: relative;
 }
 
 #buy-button:hover {
     background-color: #218838;
 }
+
+#buy-button:active {
+    background-color: #3eb157;
+}
+
+
 .cart {
     display: inline-block;
     /* float: right; */
