@@ -37,6 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
     checkoutButton.addEventListener('click', () => {
         alert('Compra finalizada!');
         localStorage.removeItem('cart');
-        window.location.href = '../docs/index.html';
+        window.location.href = '../src/index.html';
     });
 });
