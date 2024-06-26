@@ -442,9 +442,7 @@ h2{
     margin-bottom: 10px;
 }
 
-.login-label{
-    font-size: 10pt;
-}
+
 
 .main-container{
     display: flex;
@@ -487,10 +485,20 @@ h2{
     margin: 0 auto;
     min-height: 100vh;
 }
-.login-form{
-    display: flex;
-    flex-direction: column;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------------------------------------------------------------------------------------- */
 /* Page template */
 .product_page_template{

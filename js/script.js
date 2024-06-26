@@ -28,3 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('cart-count').innerText = cartCount;
     }
 });
+
+function lostPassword(){
+    alert('¯\\_(ツ)_/¯');
+}
