@@ -2,6 +2,7 @@
 window.onload = function () {
     let footer_template = `
         <!-- Rodapé do site -->
+        <link rel="stylesheet" href="/css/style-footer.css">
 <footer>
     <section class="name_footer">
         <p>Everlasting Vinyl</p>

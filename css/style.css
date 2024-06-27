@@ -165,6 +165,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    margin-bottom: 10%;
 }
 
 .container {
@@ -378,49 +379,6 @@ body {
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
-/* Footer */
-footer {
-    /* Posição */
-    position: fixed;
-    bottom: 0;
-
-    /* Chamando a função de paralelos */
-    display: flex;
-    justify-content: space-between;
-
-    /* Coloração */
-    background-color: #ee9026;
-    color: #fff;
-    text-align: center;
-
-    /* Tamanho */
-    max-height: 300px;
-    width: 100%;
-
-    /* Fonte */
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
-
-.name_footer {
-    display: flex;
-    margin-top: 10px;
-    padding-left: 5%;
-}
-
-/* Difinição dos icones do footer */
-.icones_footer {
-    display: flex;
-    padding-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#icones_footer_logo {
-    height: 30px;
-    width: 30px;
-}
 
 .login-corpo{
     display: flex;
