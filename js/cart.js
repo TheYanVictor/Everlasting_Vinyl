@@ -7,16 +7,32 @@ document.addEventListener("DOMContentLoaded", function() {
         cartItemsContainer.innerHTML = '';
         let total = 0;
         cart.forEach(item => {
-            const itemTotal = (item.price * item.quantity).toFixed(2);
+            // Ensure price and quantity are numbers
+            const price = parseFloat(item.price);
+            const quantity = parseInt(item.quantity, 10);
+    
+            // Log values to debug
+            console.log('Item:', item);
+            console.log('Price:', price);
+            console.log('Quantity:', quantity);
+    
+            // Check if price and quantity are valid numbers
+            if (isNaN(price) || isNaN(quantity)) {
+                console.error('Invalid price or quantity for item:', item);
+                return; // Skip this item if invalid
+            }
+    
+            const itemTotal = (price * quantity).toFixed(2);
             total += parseFloat(itemTotal);
+    
             const cartItem = document.createElement('div');
             cartItem.className = 'cart-item';
             cartItem.innerHTML = `
                 <img src="${item.img}" alt="${item.title}">
                 <div class="details">
                     <h2>${item.title}</h2>
-                    <p>Quantidade: ${item.quantity}</p>
-                    <p>Preço: R$${item.price}</p>
+                    <p>Quantidade: ${quantity}</p>
+                    <p>Preço: R$${price.toFixed(2)}</p>
                     <p>Total: R$${itemTotal}</p>
                 </div>
             `;
