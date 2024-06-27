@@ -1,5 +1,7 @@
 // Essa função window.onload é para garantir que o header seja carregado depois que o HTML for carregado
-// window.onload = function() {
+
+    let userName = getUserName();
+
     let header_template = `
         <!-- Cabeçalho do site -->
         <!-- O header é composto de 4 partes principais: Título, busca, navegação e carrinho/login -->
@@ -40,7 +42,7 @@
                     <div class="loginSection">
                         <a href="./login.html">
                             <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                            <p>Login/cadastro</p>
+                            <p>${userName}</p>
                         </a>
                     </div>
                 </section>
@@ -48,4 +50,14 @@
         </header>
     `;
     document.getElementById("general_header").innerHTML = header_template;
+
+    function getUserName(){
+        let activeUser = JSON.parse(localStorage.getItem('activeUser'));
+    
+        if(activeUser == undefined){
+            return "Login/Cadastro";
+        }else{
+            return activeUser.name;
+        }
+    }
 // };

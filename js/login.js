@@ -12,19 +12,29 @@ window.addEventListener("DOMContentLoaded", (event) => {
         let user = document.getElementById("loginUserName").value;
         let password = document.getElementById("loginPassword").value;
 
-        console.log(localStorage.getItem("users"));
-
         var users = JSON.parse(localStorage.getItem("users"));
 
         users.map((x) => {
-            if(x.user == user){
+            if(x.user == user || x.email == user){
                 if(x.password == password){
                     let activeUser = {
-                        //faz oq tem q ser feito
-                    }
+                        "name": x.user,
+                        "admin": false
+                    };
+
+                    activeUserJson = JSON.stringify(activeUser);
+
+                    localStorage.removeItem("activeUser");
+                    localStorage.setItem("activeUser", activeUserJson);
+
+                    window.location.href = "index.html"
+                    // window.location.replace("index.html")
+
                 }else{
                     alert("Senha incorreta");
                 }
+            }else{
+                alert('Usuário/E-mail incorreto')
             }
         })
         
@@ -33,25 +43,49 @@ window.addEventListener("DOMContentLoaded", (event) => {
     register.addEventListener("submit", (x) => {
         x.preventDefault();
         
-        let user = document.getElementById("register-UserName");
-        let email = document.getElementById("register-Email");
-        let password = document.getElementById("register-Password");
+        let user = document.getElementById("register-UserName").value;
+        let email = document.getElementById("register-Email").value;
+        let password = document.getElementById("register-Password").value;
+
+        if(isEmptyField(email) || isEmptyField(user) || isEmptyField(password)){
+            alert('Campos obrigatórios vazios!')
+            return;
+        }
+
+        if(!validateEmail(email)){
+            alert('Email invalido')
+            return;
+        }
 
         let userInfo = {
-            'user': user.value,
-            'email': email.value,
-            'password': password.value 
+            'user': user,
+            'email': email,
+            'password': password 
         };
         
         registeredUsers.push(userInfo);
 
-        console.log(userInfo);
-
         var JSONregistered = JSON.stringify(registeredUsers)
 
         localStorage.setItem("users", JSONregistered);
-
-
     })
+
+    function validateEmail(email){
+        if(!email.includes('@')){
+            return false;
+        }
+
+        const validDomains = ["gmail.com", "hotmail.com", "outlook.com"];
+        const emailDomain = email.split('@')[1].toLowerCase(); 
+        if(!validDomains.includes(emailDomain)){
+            return false
+        }
+
+        return true;
+    }
+
+    function isEmptyField(value){
+        return value == ''? true : false;
+    }
 
 })

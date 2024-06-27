@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const cartCount = cart.reduce((count, item) => count + item.quantity, 0);
         document.getElementById('cart-count').innerText = cartCount;
     }
+
+
 });
 
 function lostPassword(){
