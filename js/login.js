@@ -14,8 +14,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
         var users = JSON.parse(localStorage.getItem("users"));
 
-        users.map((x) => {
+        try {users.map((x) => {
             if(x.user == user || x.email == user){
+                console.log('teste')
                 if(x.password == password){
                     let activeUser = {
                         "name": x.user,
@@ -36,7 +37,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
             }else{
                 alert('Usuário/E-mail incorreto')
             }
-        })
+        })}
+        catch{
+            alert('nenhum usuário registrado')
+        }
         
     })
 
@@ -89,3 +93,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
 
 })
+
+function lostPassword(){
+    alert('¯\\_(ツ)_/¯');
+}

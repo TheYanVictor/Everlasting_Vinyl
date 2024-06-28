@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Everlasting Vinyl</title>
         <link rel="stylesheet" href="/css/style-login.css">
+        <link rel="stylesheet" href="/css/style-footer.css">
         <script src="/js/login.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- fonte "lato"-->
@@ -13,6 +14,15 @@
     </head>
 
     <body>
+        <header>
+            <section class="cart">
+                <a href="cart.html">Carrinho (<span id="cart-count">0</span>)</a>
+            </section>
+            <!-- Botão de voltar  -->
+            <section class="back">
+                <a href="../src/index.html">Voltar</a>
+            </section>
+        </header>
     
         <main class="main-login-screen">
             <h1>Minha conta</h1>
@@ -45,6 +55,10 @@
 
         </main>
 
+        <footer>
+            <div id="general_footer"></div>
+        </footer>
+        <script src="/js/footer.js"></script>
     </body>
 
 </html>

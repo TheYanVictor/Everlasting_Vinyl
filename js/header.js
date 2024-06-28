@@ -18,7 +18,7 @@
                 <!-- Left section -->
                 <section class="col-1">
                     <input type="text" id="barra_pesquisa" placeholder="Pesquisar...">
-                    <button id="botao_pesquisa_header"> <i class="fa fa-search"></i></button>
+                    <button id="botao_pesquisa_header"><i class="fa fa-search"></i></button>
                 </section>
                 <!-- Navigation section -->
                 <section class="navbar">

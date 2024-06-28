@@ -1,12 +1,14 @@
+@import url(style-colors.css);
 head{
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
     font-family: "Lato",sans-serif;
+    background-color: var(--notWhite);
 }
 
 .login-form{
-    border: 2pt solid green;
+    border: 1pt solid var(--PrimaryColor);
     width: 100%;
     max-width: 500px;
     padding: 20px;
@@ -15,11 +17,10 @@ main{
     flex-direction: column;
     justify-content: space-around;
     border-radius: 6px;
-    border: solid 1px #d9d9d9;
 }
 
 .sigin-form{
-    border: 2pt solid green;
+    border: 2px solid var(--PrimaryColor);
     width: 100%;
     max-width: 500px;
     padding: 20px;
@@ -28,12 +29,11 @@ main{
     flex-direction: column;
     justify-content: space-around;
     border-radius: 6px;
-    border: solid 1px #d9d9d9;
 }
 
 .main-login-screen{
     display: grid;
-    padding: 15% 10%;
+    padding: 5% 10%;
 }
 
 h1{
@@ -49,7 +49,7 @@ h2{
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     font-size: 18px;
-    color: #1a1a1a;
+    color: var(--textColor);
 }
 
 .form-input{
@@ -57,7 +57,8 @@ h2{
     margin-bottom: 9px;
     padding: 12px;
     border-radius: 6px;
-    border: solid 1px #d9d9d9;
+    border: solid 1px var(--SecundaryColor);
+    background-color: var(--notWhite);
 }
 
 .required{
@@ -68,8 +69,8 @@ h2{
 .form-button{
     font-weight: 700;
     font-size: 18px;
-    background: #000;
-    color: #fff;
+    background: var(--textColor);
+    color: var(--notWhite);
     text-transform: uppercase;
     padding: .618em 1em;
     border-radius: 3px;
@@ -77,7 +78,7 @@ h2{
 }
 
 .form-button:hover{
-    background-color: chocolate;
+    background-color: var(--PrimaryColor);
 }
 
 .form-submit-div{
@@ -93,37 +94,65 @@ h2{
     cursor: pointer;
 }
 
-/*codigo para mudar o checkbox, possivelmente não será usado pois desalinha com o texto
-
-/* input[type=checkbox] {
-    position: relative;
-      cursor: pointer;
-    margin-right: 20px;
+.cart {
+    display: inline-block;
+    /* float: right; */
+    padding: 10px;
 }
 
-input[type=checkbox]:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 0;
-    border: 2px solid #555555;
-    border-radius: 3px;
-    background-color: white;
+.cart a {
+    text-decoration: none;
+    color: #ffffff;
 }
-input[type=checkbox]:checked:after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 10px;
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    position: absolute;
-    top: 2px;
-    left: 6px;
-} */
+
+.cart a:hover {
+    text-decoration: underline;
+}
+
+.loginSection a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    display: inline-block;
+    padding: 10px;
+}
+
+.back a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.back a:hover {
+    text-decoration: underline;
+}
+
+header {
+    /* Chamando a função de paralelos */
+    justify-content: space-between;
+
+    /* Distancia dos lados */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    /* Coloração */
+    background-color: var(--SecundaryColor);
+    color: var(--notWhite);
+    
+    text-align: center;
+
+    /* Tamanho */
+    max-height: 150px;
+
+    /* Fonte */
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+}
+
+.fa{
+    margin-right: 4pt;
+    color: var(--notWhite);
+}

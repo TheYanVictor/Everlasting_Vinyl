@@ -5,13 +5,13 @@ window.onload = function () {
         <link rel="stylesheet" href="/css/style-footer.css">
 <footer>
     <section class="name_footer">
-        <p>Everlasting Vinyl</p>
+        <p>&copy; Everlasting Vinyl, 2024 - Todos os direitos reservados</p>
     </section>
     <section class="icones_footer">
-        <a href="#"><img id="icones_footer_logo"src="/assets/img/facebook.png" alt="Facebook"></a>
-        <a href="#"><img id="icones_footer_logo" src="/assets/img/instagram.png" alt="Instagram"></a>
-        <a href="#"><img id="icones_footer_logo" src="/assets/img/linkedin.png" alt="Linkedin"></a>
-        <a href="https://github.com/TheYanVictor/Everlasting_Vinyl"><img id="icones_footer_logo" src="/assets/img/github.png" alt="Github"></a>
+        <a href="#"><i class="fa fa-facebook-square fa-lg" style="color: #f3e9dc;"></i></a>
+        <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/TheYanVictor/Everlasting_Vinyl"><i class="fa fa-github fa-lg"></i></a>
     </section>
 </footer>
     `;
