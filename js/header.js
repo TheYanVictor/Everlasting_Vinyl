@@ -40,7 +40,7 @@
                         </a>
                     </div>
                     <div class="loginSection">
-                        <a href="./login.html">
+                        <a href="../src/login.html">
                             <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                             <p>${userName}</p>
                         </a>
