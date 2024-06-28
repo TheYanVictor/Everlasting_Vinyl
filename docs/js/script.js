@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../products/products_list.json')
+    fetch('/docs/products/products_list.json')
         .then(response => response.json())
         .then(data => {
             const productCardsContainer = document.getElementById('product-cards');
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const card = document.createElement('div');
                 card.className = 'product-card';
                 card.innerHTML = `
-                    <a href="../templates/product.html?id=${product.id}">
+                    <a href="/docs/templates/product.html?id=${product.id}">
                         <img src="${product.img}" alt="${product.title}">
                         <div class="details">
                             <h2>${product.title}</h2>

@@ -2,7 +2,7 @@
 window.onload = function () {
     let footer_template = `
         <!-- Rodapé do site -->
-        <link rel="stylesheet" href="/css/style-footer.css">
+        <link rel="stylesheet" href="/docs/css/style-footer.css">
 <footer>
     <section class="name_footer">
         <p>&copy; Everlasting Vinyl, 2024 - Todos os direitos reservados</p>

@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
                     localStorage.removeItem("activeUser");
                     localStorage.setItem("activeUser", activeUserJson);
 
-                    window.location.href = "index.html"
+                    window.location.href = "/docs/index.html"
                     // window.location.replace("index.html")
 
                 }else{

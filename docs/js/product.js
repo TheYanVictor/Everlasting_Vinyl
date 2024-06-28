@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const params = new URLSearchParams(window.location.search);
     const productId = params.get('id');
 
-    fetch('../products/products_list.json')
+    fetch('/docs/products/products_list.json')
         .then(response => response.json())
         .then(data => {
             const product = data.products.find(p => p.id == productId);
