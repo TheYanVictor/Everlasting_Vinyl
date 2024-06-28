@@ -1,3 +1,5 @@
+@import url(style-colors.css);
+
 /* Footer */
 footer {
     /* Posição */
@@ -9,7 +11,7 @@ footer {
     justify-content: space-between;
 
     /* Coloração */
-    background-color: #ee9026;
+    background-color: var(--SecundaryColor);
     color: #fff;
     text-align: center;
 
@@ -18,7 +20,7 @@ footer {
     width: 100%;
 
     /* Fonte */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 
 }
 

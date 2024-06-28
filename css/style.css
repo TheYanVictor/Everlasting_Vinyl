@@ -1,4 +1,6 @@
+@import url(style-colors.css);
 /* Estilos das funções  */
+
 
 /* Aplicavel para tudo */
 * {
@@ -55,8 +57,8 @@ header {
     padding-bottom: 0px;
 
     /* Coloração */
-    background-color: #ee9026;
-    color: #fff;
+    background-color: var(--SecundaryColor);
+    color: var(--notWhite);
     
     text-align: center;
 
@@ -91,7 +93,7 @@ header {
 
 /* Botao de pesquisa do header */
 #botao_pesquisa_header {
-    background-color: #ee912673; 
+    background-color: var(--SecundaryColor); 
     border-color: none; 
     border: 0;
     text-align: right;
@@ -100,17 +102,17 @@ header {
 
 /* Cor do botao de pesquisa */
 .fa-search {
-    color: white;
+    color: var(--notWhite);
 }
 
 /* Animação do botao de pesquisa */
 #botao_pesquisa_header:active {
-    background-color: #945f23;
+    background-color: var(--SecundaryColor);
 }
 
 /* Carrinho */
 #carrinho_icon {
-    background-color: #ee912673; 
+    background-color: var(--SecundaryColor); 
     border-color: none; 
     border: 0;
     text-align: right;
@@ -118,15 +120,15 @@ header {
     font-size: 30px;
 }
 .fa-shopping-cart {
-    color: white;    
+    color: var(--notWhite);    
 }
 
 #carrinho_icon:active {
-    background-color: #945f23;
+    background-color: var(--SecundaryColor);
 }
 
 #sign_in_icon {
-    background-color: #ee912673; 
+    background-color: var(--SecundaryColor); 
     border-color: none; 
     border: 0;
     text-align: right;
@@ -135,12 +137,12 @@ header {
 }
 
 #sign_in_icon:active {
-    background-color: #945f23;
+    background-color: var(--SecundaryColor);
 }
 
 /* Icon de login */
 .fa-sign-in {
-    color: white;
+    color: var(--notWhite);
 }
 
 .col-1 {
@@ -161,10 +163,10 @@ header {
 
 /* ----------------------------------------------------------------------------------------------------------- */
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--notWhite);
     margin-bottom: 10%;
 }
 
@@ -181,8 +183,8 @@ body {
 }
 
 .product-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: var(--PrimaryColor);
+    border: 1px solid var(--PrimaryColor);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -203,7 +205,7 @@ body {
 .product-card .details h2 {
     font-size: 18px;
     margin: 0 0 10px;
-    color: #333;
+    color: var(--textColor);
 }
 
 .product-card .details p {
@@ -213,7 +215,7 @@ body {
 
 .product-card .details .price {
     font-size: 20px;
-    color: #333;
+    color: var(--textColor);
     margin-top: 10px;
 }
 
@@ -229,7 +231,7 @@ body {
 
 .purchase_options {
     margin-top: 20px;
-    border: 3px solid orange;
+    border: 3px solid var(--PrimaryColor);
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
@@ -260,7 +262,7 @@ body {
     width: 100%;
     padding: 8px;
     font-size: 16px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--notWhite);
     border-radius: 4px;
 }
 
@@ -269,7 +271,7 @@ body {
     padding: 10px;
     font-size: 18px;
     background-color: #28a745;
-    color: #fff;
+    color: var(--notWhite);
     border: none;
     border-radius: 4px;
     cursor: pointer;
