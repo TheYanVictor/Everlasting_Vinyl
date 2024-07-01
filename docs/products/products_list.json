@@ -14,271 +14,271 @@
         },
         {
             "id": 3,
-            "img": "/docs/assets/img/the-beatles-white-album.jpg",
+            "img": "assets/img/the-beatles-white-album.jpg",
             "title": "The Beatles - White Album",
             "price": "49,99"
         },
         {
             "id": 4,
-            "img": "/docs/assets/img/queen-a-day-at-the-races.jpg",
+            "img": "assets/img/queen-a-day-at-the-races.jpg",
             "title": "Queen - A Day at the Races",
             "price": "49,99"
         },
         {
             "id": 5,
-            "img": "/docs/assets/img/led-zeppelin-iv.jpg",
+            "img": "assets/img/led-zeppelin-iv.jpg",
             "title": "Led Zeppelin - IV",
             "price": "59,99"
         },
         {
             "id": 6,
-            "img": "/docs/assets/img/the-rolling-stones-exile-on-main-st.jpg",
+            "img": "assets/img/the-rolling-stones-exile-on-main-st.jpg",
             "title": "The Rolling Stones - Exile on Main St.",
             "price": "69,99"
         },
         {
             "id": 7,
-            "img": "/docs/assets/img/acdc-back-in-black.jpg",
+            "img": "assets/img/acdc-back-in-black.jpg",
             "title": "AC/DC - Back in Black",
             "price": "79,99"
         },
         {
             "id": 8,
-            "img": "/docs/assets/img/the-who-whos-next.jpg",
+            "img": "assets/img/the-who-whos-next.jpg",
             "title": "The Who - Who's Next",
             "price": "89,99"
         },
         {
             "id": 9,
-            "img": "/docs/assets/img/guns-n-roses-appetite-for-destruction.jpg",
+            "img": "assets/img/guns-n-roses-appetite-for-destruction.jpg",
             "title": "Guns N' Roses - Appetite for Destruction",
             "price": "99,99"
         },
         {
             "id": 10,
-            "img": "/docs/assets/img/fleetwood-mac-rumours.jpg",
+            "img": "assets/img/fleetwood-mac-rumours.jpg",
             "title": "Fleetwood Mac - Rumours",
             "price": "109,99"
         },
         {
             "id": 11,
-            "img": "/docs/assets/img/david-bowie-the-rise-and-fall-of-ziggy-stardust.jpg",
+            "img": "assets/img/david-bowie-the-rise-and-fall-of-ziggy-stardust.jpg",
             "title": "David Bowie - The Rise and Fall of Ziggy Stardust",
             "price": "119,99"
         },
         {
             "id": 12,
-            "img": "/docs/assets/img/jimi-hendrix-are-you-experienced.jpg",
+            "img": "assets/img/jimi-hendrix-are-you-experienced.jpg",
             "title": "Jimi Hendrix - Are You Experienced",
             "price": "129,99"
         },
         {
             "id": 13,
-            "img": "/docs/assets/img/metallica-master-of-puppets.jpg",
+            "img": "assets/img/metallica-master-of-puppets.jpg",
             "title": "Metallica - Master of Puppets",
             "price": "139,99"
         },
         {
             "id": 14,
-            "img": "/docs/assets/img/black-sabbath-paranoid.jpg",
+            "img": "assets/img/black-sabbath-paranoid.jpg",
             "title": "Black Sabbath - Paranoid",
             "price": "149,99"
         },
         {
             "id": 15,
-            "img": "/docs/assets/img/the-doors-the-doors.jpg",
+            "img": "assets/img/the-doors-the-doors.jpg",
             "title": "The Doors - The Doors",
             "price": "34,99"
         },
         {
             "id": 16,
-            "img": "/docs/assets/img/the-clash-london-calling.jpg",
+            "img": "assets/img/the-clash-london-calling.jpg",
             "title": "The Clash - London Calling",
             "price": "44,99"
         },
         {
             "id": 17,
-            "img": "/docs/assets/img/bruce-springsteen-born-to-run.jpg",
+            "img": "assets/img/bruce-springsteen-born-to-run.jpg",
             "title": "Bruce Springsteen - Born to Run",
             "price": "54,99"
         },
         {
             "id": 18,
-            "img": "/docs/assets/img/u2-the-joshua-tree.jpg",
+            "img": "assets/img/u2-the-joshua-tree.jpg",
             "title": "U2 - The Joshua Tree",
             "price": "64,99"
         },
         {
             "id": 19,
-            "img": "/docs/assets/img/eagles-hotel-california.jpg",
+            "img": "assets/img/eagles-hotel-california.jpg",
             "title": "Eagles - Hotel California",
             "price": "74,99"
         },
         {
             "id": 20,
-            "img": "/docs/assets/img/pearl-jam-ten.jpg",
+            "img": "assets/img/pearl-jam-ten.jpg",
             "title": "Pearl Jam - Ten",
             "price": "39,99"
         },
         {
             "id": 21,
-            "img": "/docs/assets/img/soundgarden-superunknown.png",
+            "img": "assets/img/soundgarden-superunknown.png",
             "title": "Soundgarden - Superunknown",
             "price": "49,99"
         },
         {
             "id": 22,
-            "img": "/docs/assets/img/alice-in-chains-dirt.jpg",
+            "img": "assets/img/alice-in-chains-dirt.jpg",
             "title": "Alice in Chains - Dirt",
             "price": "59,99"
         },
         {
             "id": 23,
-            "img": "/docs/assets/img/stone-temple-pilots-core.jpg",
+            "img": "assets/img/stone-temple-pilots-core.jpg",
             "title": "Stone Temple Pilots - Core",
             "price": "69,99"
         },
         {
             "id": 24,
-            "img": "/docs/assets/img/faith-no-more-angel-dust.jpg",
+            "img": "assets/img/faith-no-more-angel-dust.jpg",
             "title": "Faith No More - Angel Dust",
             "price": "79,99"
         },
         {
             "id": 25,
-            "img": "/docs/assets/img/tool-aenima.jpg",
+            "img": "assets/img/tool-aenima.jpg",
             "title": "Tool - Ænima",
             "price": "89,99"
         },
         {
             "id": 26,
-            "img": "/docs/assets/img/pantera-vulgar-display-of-power.jpg",
+            "img": "assets/img/pantera-vulgar-display-of-power.jpg",
             "title": "Pantera - Vulgar Display of Power",
             "price": "99,99"
         },
         {
             "id": 27,
-            "img": "/docs/assets/img/slayer-reign-in-blood.jpg",
+            "img": "assets/img/slayer-reign-in-blood.jpg",
             "title": "Slayer - Reign in Blood",
             "price": "109,99"
         },
         {
             "id": 28,
-            "img": "/docs/assets/img/megadeth-rust-in-peace.jpg",
+            "img": "assets/img/megadeth-rust-in-peace.jpg",
             "title": "Megadeth - Rust in Peace",
             "price": "119,99"
         },
         {
             "id": 29,
-            "img": "/docs/assets/img/anthrax-among-the-living.jpg",
+            "img": "assets/img/anthrax-among-the-living.jpg",
             "title": "Anthrax - Among the Living",
             "price": "129,99"
         },
         {
             "id": 30,
-            "img": "/docs/assets/img/soundgarden-badmotorfinger.jpg",
+            "img": "assets/img/soundgarden-badmotorfinger.jpg",
             "title": "Soundgarden - Badmotorfinger",
             "price": "139,99"
         },
         {
             "id": 31,
-            "img": "/docs/assets/img/korn-follow-the-leader.png",
+            "img": "assets/img/korn-follow-the-leader.png",
             "title": "Korn - Follow the Leader",
             "price": "149,99"
         },
         {
             "id": 32,
-            "img": "/docs/assets/img/metallica-ride-the-lightning.jpg",
+            "img": "assets/img/metallica-ride-the-lightning.jpg",
             "title": "Metallica - Ride the Lightning",
             "price": "39,99"
         },
         {
             "id": 33,
-            "img": "/docs/assets/img/black-sabbath-master-of-reality.jpg",
+            "img": "assets/img/black-sabbath-master-of-reality.jpg",
             "title": "Black Sabbath - Master of Reality",
             "price": "49,99"
         },
         {
             "id": 34,
-            "img": "/docs/assets/img/iron-maiden-the-number-of-the-beast.jpg",
+            "img": "assets/img/iron-maiden-the-number-of-the-beast.jpg",
             "title": "Iron Maiden - The Number of the Beast",
             "price": "59,99"
         },
         {
             "id": 35,
-            "img": "/docs/assets/img/alice-in-chains-jar-of-flies.jpg",
+            "img": "assets/img/alice-in-chains-jar-of-flies.jpg",
             "title": "Alice in Chains - Jar of Flies",
             "price": "69,99"
         },
         {
             "id": 36,
-            "img": "/docs/assets/img/nirvana-in-utero.jpg",
+            "img": "assets/img/nirvana-in-utero.jpg",
             "title": "Nirvana - In Utero",
             "price": "79,99"
         },
         {
             "id": 37,
-            "img": "/docs/assets/img/days-of-the-new-days-of-the-new.jpg",
+            "img": "assets/img/days-of-the-new-days-of-the-new.jpg",
             "title": "Days of the New - Days of the New",
             "price": "89,99"
         },
         {
             "id": 38,
-            "img": "/docs/assets/img/sum-2-prove-lil-baby.png",
+            "img": "assets/img/sum-2-prove-lil-baby.png",
             "title": "Sum 2 Prove - Lil Baby",
             "price": "99,99"
         },
         {
             "id": 39,
-            "img": "/docs/assets/img/blonde-frank-ocean.jpg",
+            "img": "assets/img/blonde-frank-ocean.jpg",
             "title": "Blonde - Frank Ocean",
             "price": "109,99"
         },
         {
             "id": 40,
-            "img": "/docs/assets/img/ballads-1-joji.jpg",
+            "img": "assets/img/ballads-1-joji.jpg",
             "title": "Ballads 1 - Joji",
             "price": "119,99"
         },
         {
             "id": 41,
-            "img": "/docs/assets/img/nectar-joji.jpg",
+            "img": "assets/img/nectar-joji.jpg",
             "title": "Nectar - Joji",
             "price": "129,99"
         },
         {
             "id": 42,
-            "img": "/docs/assets/img/flower-boy-tyler-the-creator.png",
+            "img": "assets/img/flower-boy-tyler-the-creator.png",
             "title": "Flower Boy - Tyler the Creator",
             "price": "139,99"
         },
         {
             "id": 43,
-            "img": "/docs/assets/img/changes-vacations.jpg",
+            "img": "assets/img/changes-vacations.jpg",
             "title": "Changes - Vacations",
             "price": "149,99"
         },
         {
             "id": 44,
-            "img": "/docs/assets/img/melodic-blues-baby-keem.jpg",
+            "img": "assets/img/melodic-blues-baby-keem.jpg",
             "title": "Melodic Blues - Baby Keem",
             "price": "29,99"
         },
         {
             "id": 45,
-            "img": "/docs/assets/img/we-are-not-your-kind-slipknot.png",
+            "img": "assets/img/we-are-not-your-kind-slipknot.png",
             "title": "We Are Not Your Kind - Slipknot",
             "price": "39,99"
         },
         {
             "id": 46,
-            "img": "/docs/assets/img/dois-legiao-urbana.jpg",
+            "img": "assets/img/dois-legiao-urbana.jpg",
             "title": "Dois - Legião Urbana",
             "price": "49,99"
         },
         {
             "id": 47,
-            "img": "/docs/assets/img/nothing-happens-wallows.jpg",
+            "img": "assets/img/nothing-happens-wallows.jpg",
             "title": "Nothing Happens - Wallows",
             "price": "59,99"
         }
