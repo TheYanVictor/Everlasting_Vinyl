@@ -2,7 +2,7 @@
     "products": [
         {
             "id": 1,
-            "img": "docs/assets/img/nirvana-nervermind.jpg",
+            "img": "../assets/img/nirvana-nervermind.jpg",
             "title": "Nirvana - Nevermind",
             "price": "29,99"
         },
