@@ -34,13 +34,13 @@
                 <!-- Right section -->
                 <section class="right_section_header">
                     <div class="cart">
-                        <a href="/docs/templates/cart.html" style="color: white;">
+                        <a href="templates/cart.html" style="color: white;">
                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             <p>Carrinho (<span id="cart-count">0</span>)</p>
                         </a>
                     </div>
                     <div class="loginSection">
-                        <a href="/docs/src/login.html">
+                        <a href="src/login.html">
                             <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                             <p>${userName}</p>
                         </a>
